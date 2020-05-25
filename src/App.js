@@ -33,8 +33,7 @@ export default function App() {
         return repository;
       }
     });
-    console.log('aaaaaaaaaaaaaaaaaaaaaaaaaaaaa');
-    console.log(newRepositories);
+    
     setRepositories(newRepositories);
   }
 
